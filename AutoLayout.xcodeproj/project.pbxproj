@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3401DC12410E55A0056A416 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3401DC02410E55A0056A416 /* BorderButton.swift */; };
 		A3F96BD72410CD7E00D8F1E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F96BD62410CD7E00D8F1E0 /* AppDelegate.swift */; };
 		A3F96BD92410CD7E00D8F1E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F96BD82410CD7E00D8F1E0 /* SceneDelegate.swift */; };
 		A3F96BDB2410CD7E00D8F1E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F96BDA2410CD7E00D8F1E0 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A3401DC02410E55A0056A416 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		A3F96BD32410CD7E00D8F1E0 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F96BD62410CD7E00D8F1E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3F96BD82410CD7E00D8F1E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3401DBD2410DA280056A416 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3401DC02410E55A0056A416 /* BorderButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A3F96BCA2410CD7E00D8F1E0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		A3F96BD52410CD7E00D8F1E0 /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				A3401DBD2410DA280056A416 /* Views */,
 				A3F96BD62410CD7E00D8F1E0 /* AppDelegate.swift */,
 				A3F96BD82410CD7E00D8F1E0 /* SceneDelegate.swift */,
 				A3F96BDA2410CD7E00D8F1E0 /* ViewController.swift */,
@@ -141,6 +152,7 @@
 				A3F96BDB2410CD7E00D8F1E0 /* ViewController.swift in Sources */,
 				A3F96BD72410CD7E00D8F1E0 /* AppDelegate.swift in Sources */,
 				A3F96BD92410CD7E00D8F1E0 /* SceneDelegate.swift in Sources */,
+				A3401DC12410E55A0056A416 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
