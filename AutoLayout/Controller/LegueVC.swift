@@ -50,4 +50,10 @@ class LegueVC: UIViewController {
         nextBtn.isEnabled = true
         nextBtn.isHidden = false
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let skillVC = segue.destination as? SkillVC {
+            skillVC.player = player
+        }
+    }
 }
