@@ -9,12 +9,15 @@
 import UIKit
 
 class LegueVC: UIViewController {
-
+    @IBOutlet weak var nextBtn: UIButton!
+    
+    var player: Player!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        
+        player = Player()
+        nextBtn.isHidden = true
     }
     
     @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
@@ -26,4 +29,25 @@ class LegueVC: UIViewController {
         
     }
     
+    @IBAction func onMensTapped(_ sender: Any) {
+//        player.desiredLeague = "mens"
+//        nextBtn.isEnabled = true
+        selectLegue(legueType: "mens")
+    }
+    
+    @IBAction func onWomensTapped(_ sender: Any) {
+        //player.desiredLeague = "womens"
+        //nextBtn.isEnabled = true
+        selectLegue(legueType: "womens")
+    }
+    @IBAction func onCoedTapped(_ sender: Any) {
+        //player.desiredLeague = "co-ed"
+        //nextBtn.isEnabled = true
+        selectLegue(legueType: "co-ed")
+    }
+    
+    func selectLegue(legueType: String){
+        nextBtn.isEnabled = true
+        nextBtn.isHidden = false
+    }
 }
